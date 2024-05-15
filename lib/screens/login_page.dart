@@ -9,13 +9,13 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("LoginPage"),
+        title: const Text("LoginPage"),
         centerTitle: true,
       ),
       body: Center(
         child: Column(
           children: [
-            Text("LoginPage"),
+            const Text("LoginPage"),
             TextField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(
@@ -30,17 +30,17 @@ class LoginPage extends StatelessWidget {
               onPressed: () {
                 context.go("/home");
               },
-              child: Text("To HOME Page"),
+              child: const Text("To HOME Page"),
             ), MaterialButton(
               onPressed: () {
                 context.go("/registration");
               },
-              child: Text("To Reg Page"),
+              child: const Text("To Reg Page"),
             ), MaterialButton(
               onPressed: () {
                 context.go("/logout");
               },
-              child: Text("To LogOut Page"),
+              child: const Text("To LogOut Page"),
             ),
           ],
         ),

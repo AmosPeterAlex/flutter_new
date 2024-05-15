@@ -9,18 +9,18 @@ class LogoutPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("LogoutPage"),
+        title: const Text("LogoutPage"),
         centerTitle: true,
       ),
       body: Center(
         child: Column(
           children: [
-            Text("LogoutPage"),
+            const Text("LogoutPage"),
             ElevatedButton(
                 onPressed: () {
                   context.go("/");
                 },
-                child: Text("to login"))
+                child: const Text("to login"))
           ],
         ),
       ),

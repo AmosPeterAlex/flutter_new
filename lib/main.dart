@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       path: "/",
       // builder: (context, state) => LoginPage(),
       pageBuilder: (context, state) {
-        return MaterialPage(child: LoginPage());
+        return const MaterialPage(child: LoginPage());
       },
     ),
     GoRoute(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       path: "/registration",
       // builder: (context, state) => RegistrationPage(),
       pageBuilder: (context, state) {
-        return MaterialPage(child: RegistrationPage());
+        return const MaterialPage(child: RegistrationPage());
       },
     ),
     GoRoute(
@@ -32,14 +32,14 @@ class MyApp extends StatelessWidget {
       path: "/home",
       // builder: (context, state) => HomePage(),
       pageBuilder: (context, state) {
-        return MaterialPage(child: HomePage());
+        return const MaterialPage(child: HomePage());
       },
     ),
     GoRoute(
       name: "logout",
       path: "/logout",
       pageBuilder: (context, state) {
-        return MaterialPage(child: LogoutPage());
+        return const MaterialPage(child: LogoutPage());
       },
     ),
   ]);

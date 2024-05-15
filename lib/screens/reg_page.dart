@@ -9,13 +9,13 @@ class RegistrationPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("RegistrationPage"),
+        title: const Text("RegistrationPage"),
         centerTitle: true,
       ),
       body: Center(
         child: Column(
           children: [
-            Text("RegistrationPage"),
+            const Text("RegistrationPage"),
             TextField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(
@@ -35,7 +35,7 @@ class RegistrationPage extends StatelessWidget {
               onPressed: () {
                 context.go("/");
               },
-              child: Text("To Login"),
+              child: const Text("To Login"),
             )
           ],
         ),

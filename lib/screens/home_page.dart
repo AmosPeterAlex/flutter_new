@@ -9,28 +9,28 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("HomePage"),
+        title: const Text("HomePage"),
         centerTitle: true,
       ),
       body: Center(
         child: Column(
           children: [
-            Text("HomePage"),
+            const Text("HomePage"),
             ElevatedButton(
                 onPressed: () {
                   context.go("/logout");
                 },
-                child: Text("Go to LogOut")),
+                child: const Text("Go to LogOut")),
             ElevatedButton(
                 onPressed: () {
                   context.go("/");
                 },
-                child: Text("Go to Login")),
+                child: const Text("Go to Login")),
             ElevatedButton(
                 onPressed: () {
                   context.go("/registration");
                 },
-                child: Text("Go to Reg"))
+                child: const Text("Go to Reg"))
           ],
         ),
       ),
