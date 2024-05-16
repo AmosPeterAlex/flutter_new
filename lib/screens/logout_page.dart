@@ -16,6 +16,9 @@ class LogoutPage extends StatelessWidget {
         child: Column(
           children: [
             const Text("LogoutPage"),
+            const SizedBox(
+              height: 10,
+            ),
             ElevatedButton(
                 onPressed: () {
                   context.go("/");

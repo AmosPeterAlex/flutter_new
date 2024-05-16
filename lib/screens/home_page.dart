@@ -21,11 +21,12 @@ class HomePage extends StatelessWidget {
                   context.go("/logout");
                 },
                 child: const Text("Go to LogOut")),
+            const SizedBox(height: 10,),
             ElevatedButton(
                 onPressed: () {
                   context.go("/");
                 },
-                child: const Text("Go to Login")),
+                child: const Text("Go to Login")),const SizedBox(height: 10,),
             ElevatedButton(
                 onPressed: () {
                   context.go("/registration");

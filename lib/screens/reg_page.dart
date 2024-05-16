@@ -20,17 +20,17 @@ class RegistrationPage extends StatelessWidget {
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15))),
-            ),
+            ),const SizedBox(height: 10,),
             TextField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15))),
-            ),
+            ),const SizedBox(height: 10,),
             TextField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15))),
-            ),
+            ),const SizedBox(height: 10,),
             MaterialButton(
               onPressed: () {
                 context.go("/");

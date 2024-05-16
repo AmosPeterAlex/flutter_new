@@ -21,22 +21,36 @@ class LoginPage extends StatelessWidget {
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15))),
             ),
+            const SizedBox(
+              height: 10,
+            ),
             TextField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15))),
+            ),
+            const SizedBox(
+              height: 10,
             ),
             MaterialButton(
               onPressed: () {
                 context.go("/home");
               },
               child: const Text("To HOME Page"),
-            ), MaterialButton(
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            MaterialButton(
               onPressed: () {
                 context.go("/registration");
               },
               child: const Text("To Reg Page"),
-            ), MaterialButton(
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            MaterialButton(
               onPressed: () {
                 context.go("/logout");
               },
