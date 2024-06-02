@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:go_router_data_table_study/syncfusion_datagrid/controller.dart';
 import 'package:go_router_data_table_study/syncfusion_datagrid/data_source.dart';
 import 'package:go_router_data_table_study/syncfusion_datagrid/model.dart';
 
@@ -55,36 +54,36 @@ class _DataGridExampleState extends State<DataGridExample> {
           GridColumn(
               columnName: 'id',
               label: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 16.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.centerRight,
-                  child: Text(
+                  child: const Text(
                     'ID',
                     overflow: TextOverflow.ellipsis,
                   ))),
           GridColumn(
               columnName: 'name',
               label: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 16.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.centerLeft,
-                  child: Text(
+                  child: const Text(
                     'Name',
                     overflow: TextOverflow.ellipsis,
                   ))),
           GridColumn(
               columnName: 'designation',
               label: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 16.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.centerLeft,
-                  child: Text(
+                  child: const Text(
                     'Designation',
                     overflow: TextOverflow.ellipsis,
                   ))),
           GridColumn(
               columnName: 'salary',
               label: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 16.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.centerRight,
-                  child: Text(
+                  child: const Text(
                     'Salary',
                     overflow: TextOverflow.ellipsis,
                   ))),
